@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "OpenSans-Italic";
+  src: url("../fonts/OpenSans/OpenSans-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-Semibold";
+  src: url("../fonts/OpenSans/OpenSans-Semibold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("../fonts/OpenSans/OpenSans-Bold.ttf") format("truetype");
+}

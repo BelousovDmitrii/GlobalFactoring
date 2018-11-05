@@ -1,0 +1,59 @@
+@mixin R_bold {
+  font: {
+    family: "Roboto", sans-serif;
+    weight: 700;
+  }
+}
+
+@mixin R_regular {
+  font: {
+    family: "Roboto", sans-serif;
+    weight: 400;
+  }
+}
+
+@mixin OS_semibold {
+  font: {
+    family: "Open Sans", sans-serif;
+    weight: 600;
+  }
+}
+
+@mixin OS_italic {
+  font: {
+    family: "Open Sans", sans-serif;
+    weight: 400;
+    style: italic;
+  }
+}
+
+@mixin OS_bold {
+  font: {
+    family: "Open Sans", sans-serif;
+    weight: 700;
+  }
+}
+
+@mixin OS_regular {
+  font: {
+    family: "Open Sans", sans-serif;
+    weight: 400;
+  }
+}
+
+@mixin OS_light {
+  font: {
+    family: "Open Sans", sans-serif;
+    weight: 300;
+  }
+}
+
+@mixin link {
+  color: $blue_color;
+  text-decoration: none;
+  border-bottom: 1px solid $blue_color;
+  transition: border-color 0.2s;
+  &:hover {
+    border-color: transparent;
+  }
+}

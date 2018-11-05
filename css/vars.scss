@@ -1,0 +1,35 @@
+$blue_color: #0082ad;
+$dark_blue_color: #007aa3;
+$green_color: #15b799;
+
+.blue {
+  color: $blue_color;
+}
+
+.green {
+  color: $green_color;
+}
+
+.fz31 {
+  font-size: 31px;
+}
+
+.semibold {
+  @include OS_semibold();
+}
+
+.bold {
+  @include OS_bold();
+}
+
+.light {
+  @include OS_light();
+}
+
+.rub {
+  font-family: "ALSRubl", sans-serif;
+}
+
+.regular {
+  @include OS_regular();
+}
